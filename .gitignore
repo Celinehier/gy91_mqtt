@@ -1,0 +1,48 @@
+# Bỏ qua tất cả các file biên dịch hoặc thư mục build
+build/
+dist/
+*.o
+*.a
+*.out
+*.elf
+*.bin
+*.hex
+
+# Bỏ qua file lock và log
+*.log
+*.lock
+
+# Bỏ qua file tạm hoặc hệ thống
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.bak
+
+# Bỏ qua file cài đặt hệ thống hoặc môi trường
+.env
+*.pyc
+*.pyo
+__pycache__/
+
+# Bỏ qua file do ESP-IDF sinh ra
+sdkconfig
+sdkconfig.old
+*.map
+
+# Bỏ qua node_modules và file do npm/yarn sinh ra
+node_modules/
+package-lock.json
+yarn.lock
+
+# Bỏ qua thư mục của Git
+.git/
+
+# Thêm các file khác cần bỏ qua (nếu có)
+*.csv
+*.txt
+*.db
+*.exe
+*.pdf
