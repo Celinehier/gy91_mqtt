@@ -7,7 +7,7 @@ Mục tiêu của dự án:
 - Kết nối GY-91 với ESP32-S3 qua SPI.
 - Đọc dữ liệu từ MPU9250 (gia tốc, con quay, từ trường).
 - Đọc dữ liệu từ BMP280 (nhiệt độ, áp suất, độ cao).
-- Hiển thị dữ liệu lên terminal hoặc truyền qua MQTT.
+- Hiển thị dữ liệu lên terminal và truyền qua MQTT.
 
 ---
 

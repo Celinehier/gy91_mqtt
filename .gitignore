@@ -40,9 +40,9 @@ yarn.lock
 # Bỏ qua thư mục của Git
 .git/
 
-# Thêm các file khác cần bỏ qua (nếu có)
-*.csv
-*.txt
-*.db
-*.exe
-*.pdf
+# # Thêm các file khác cần bỏ qua (nếu có)
+# *.csv
+# *.txt
+# *.db
+# *.exe
+# *.pdf
